@@ -1,0 +1,60 @@
+<html>
+    <head>
+      <title>Uniobjetos</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+     <link rel="stylesheet" href="style.css">
+    
+    </head>
+  
+    <body>
+        <div class="contenedor"> 
+
+            <center>
+                <h3 class="titulo">Uniobjetos</h3>
+                <br>
+                <br>
+                <p style="font-size: 22px;"> El unicornio esta listo para ver tus unipuerquiemociones </p>
+                <b class="objetos">
+                   unipuerquito feliz
+                    <hr>
+                  unipuerquito triste
+                    <hr>
+                   unipurquito enojado
+                    <hr>
+                   unipurquito cute
+                    <hr>
+                    unipuerquito desepsionado
+                    <hr>
+                    unipuerquito emocionado
+                    <hr>
+
+                </b>
+
+                <label>Vista unipuerquicornio</label>
+                <div id="camara"></div> 
+                <br> <br>
+                <div id="resultado"></div> 
+                <br> <br>
+                <button onclick="foto();" id="uni" class="botonf">Captura la unipuerquiemocion </button>
+                <br> <br>
+                <button onclick="verificar();" id="uni2" class="botonv">Verifica la unipuerquiemocion </button>
+                <br> <br>
+                <p style="font-size: 22px;">Uniobjeto : <span id="resultado1"></span></p>
+                <p style="font-size: 22px;">Uniprecisión : <span id="resultados2"></span></p>
+
+
+
+            </center>
+        </div>
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
+  
